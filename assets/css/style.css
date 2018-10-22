@@ -4,7 +4,7 @@
  3.  HOME - LINE NO 517
  4.  ABOUT US - LINE NO 563
  5.  TOBIAS SECTION - LINE NO 615
- 5.  SERVICE - LINE NO 640
+ 5.  EXPERIENCE - LINE NO 640
  6.  TEAM - LINE NO 682
  7.  PORTFOLIO - LINE NO 715
  8.  CONTACT US - LINE NO 736
@@ -368,36 +368,40 @@ nav ul li {
                     Service Section
 ===================================================================*/
 
-.service .container-fluid{
+.experience .container-fluid{
     padding-right: 0px;
     padding-left: 0px;
     margin-right: auto;
     margin-left: auto;
 }
-.main_service_content .col-sm-push-6 {
+.main_experience_content .col-sm-push-6 {
     left: 52%;
 }
-.main_service_content{
+.main_experience_content{
     overflow: hidden;
 }
-.main_service_content .single_service_area{
+.main_experience_content .single_experience_area{
     overflow: hidden;
 }
-.main_service_content img{
+.main_experience_content img{
     width:100%;
 }
-.main_service_content .single_service{
-    margin-top:25%;
+.main_experience_content .single_experience{
+    margin-top:10%;
 }
-.main_service_content .single_service h2{
+.main_experience_content .single_experience h2{
     font-weight: 700;
     color: #231f20;
 }
-.single_service.single_service_left_text{
+.single_experience.single_experience_left_text{
     margin-left:15%;
 }
-
-
+.single_experience_left{
+  margin-top:0%;
+}
+.single_experience_right{
+  margin-top:10%;
+}
 
 
 /*=====================================================================
@@ -461,10 +465,10 @@ nav ul li {
                    Team Section
 ====================================================================*/
 
-.main_team_area{
+.main_education_area{
     overflow: hidden;
 }
-.main_team_area .main_team_content{
+.main_education_area .main_education_content{
     margin-bottom:80px;
     display: inline-block;
 }
@@ -477,7 +481,7 @@ nav ul li {
 .single_team{
     overflow: hidden;
 }
-.single_team:hover .single_team_text{
+.single_team:hover .education_tab_text{
     display: none;
     -webkit-animation: fadeIn 1s;
     animation: fadeIn 1s;
@@ -500,19 +504,19 @@ nav ul li {
     color:#444;
 }
 
-.main_team_area .single_team img{
+.main_education_area .single_team img{
     width:100%;
 }
-.main_team_area .single_team .single_team_text{
+.main_education_area .single_team .education_tab_text{
     padding: 20px;
     -webkit-animation: fadeIn 1s;
     animation: fadeIn 1s;
 }
-.main_team_area .single_team .single_team_text h6{
+.main_education_area .single_team .education_tab_text h6{
     font-weight: 700;
     color:#231f20;
 }
-.main_team_area .single_team .single_team_text{
+.main_education_area .single_team .education_tab_text{
     font-weight: 300;
 }
 
@@ -563,29 +567,29 @@ nav ul li {
 .main_blog_area{
     overflow: hidden;
 }
-.main_blog_area .single_blog_menu{}
-.main_blog_area .single_blog{}
-.main_blog_area .single_blog_menu h2{
+.main_blog_area .single_github_menu{}
+.main_blog_area .single_github{}
+.main_blog_area .single_github_menu h2{
     border-right: 2px solid #bbb;
 }
-.main_blog_area .single_blog_menu ul{
+.main_blog_area .single_github_menu ul{
     margin-top:30%;
 }
-.main_blog_area .single_blog_menu ul li a{
+.main_blog_area .single_github_menu ul li a{
     color:#bbb;
     line-height: 2.5rem;
 }
-.main_blog_area .single_blog_menu ul li.active a{
+.main_blog_area .single_github_menu ul li.active a{
     color:#1e1e1e;
     font-weight: 700;
 }
-.main_blog_area .single_blog .single_blog_img{}
-.main_blog_area .single_blog .single_blog_text{}
+.main_blog_area .single_github .single_github_img{}
+.main_blog_area .single_github .single_github_text{}
 
-.main_blog_area .single_blog .single_blog_text h6{
+.main_blog_area .single_github .single_github_text h6{
     font-weight: 500;
 }
-.main_blog_area .single_blog .single_blog_text span{
+.main_blog_area .single_github .single_github_text span{
     font-weight: 100;
     font-size:0.714rem;
 }
@@ -679,6 +683,11 @@ nav ul li {
 .scrollup a:hover i{
     background: #fff;
     color:#333;
+}
+
+.github-wrapper{
+  width: 100vw;
+  background-color: #1e1e1e;
 }
 
 /*=====================================================================

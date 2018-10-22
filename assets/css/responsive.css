@@ -24,7 +24,7 @@ Author URI: http://www.Xpeedstudio.com
         padding-left: 3px;
     }
 
-    .main_service_content .single_service {
+    .main_experience_content .single_experience {
         margin-top: 0%;
     }
 
@@ -55,21 +55,21 @@ Author URI: http://www.Xpeedstudio.com
     #main-nav li a{
         padding: 2% 10%;
     }
-    .main_service_content img{
+    .main_experience_content img{
         width:100%;
     }
-    .main_service_content .single_service {
+    .main_experience_content .single_experience {
         margin-top: 5%;
         padding: 0% 2%;
     }
-    .single_service.single_service_left_text {
+    .single_experience.single_experience_left_text {
         margin-left: 0%;
     }
 
-    .main_blog_area .single_blog_menu ul {
+    .main_blog_area .single_github_menu ul {
         margin-top: 10%;
     }
-    .single_blog_img img{
+    .single_github_img img{
         width:100%;
     }
 
