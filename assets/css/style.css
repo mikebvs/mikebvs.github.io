@@ -469,7 +469,7 @@ nav ul li {
     display: inline-block;
 }
 
-.single_team:hover .team_socail_area{
+.single_team:hover .education_area{
     max-height: 40px;
     overflow: hidden;
 
@@ -482,7 +482,7 @@ nav ul li {
     -webkit-animation: fadeIn 1s;
     animation: fadeIn 1s;
 }
-.team_socail_area{
+.education_area{
     -webkit-transition: max-height 1s;
     -moz-transition: max-height 1s;
     -ms-transition: max-height 1s;
@@ -491,12 +491,12 @@ nav ul li {
     overflow: hidden;
     max-height: 0;
 }
-.team_socail_area a i{
+.education_area a i{
     color:#cecece;
     padding: 5px;
     transition: all 0.6s;
 }
-.team_socail_area a:hover i{
+.education_area a:hover i{
     color:#444;
 }
 
